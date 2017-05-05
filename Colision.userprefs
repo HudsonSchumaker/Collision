@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/interactive_rock/Scripts/rock_free/rock_free.cs">
+    <Files>
+      <File FileName="Assets/interactive_rock/Scripts/rock_free/rock_free.cs" Line="44" Column="1" />
+      <File FileName="Assets/Jump.cs" Line="18" Column="85" />
+      <File FileName="Assets/Force.cs" Line="1" Column="1" />
+      <File FileName="Assets/CollisionBall.cs" Line="1" Column="1" />
+      <File FileName="Assets/interactive_rock/Scripts/rock_free/rock_free_master.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
