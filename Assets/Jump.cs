@@ -25,6 +25,7 @@ public class Jump : MonoBehaviour {
 		}
 	}
 
+	// Used when the collider is set to trigger
 	void OnCollisionEnter2D(Collision2D o){
 		if(o.gameObject.CompareTag("Ground")){
 			duplo = 2;
