@@ -5,7 +5,7 @@ using UnityEngine;
 public class Force : MonoBehaviour {
 
 	public float force = 300.5f;
-	public Rigidbody2D bola;
+	public Rigidbody2D ball;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +17,7 @@ public class Force : MonoBehaviour {
 
 		if(this.gameObject.CompareTag("Ball")){
 			if (Input.GetKeyDown (KeyCode.Space)) {
-				bola.AddForce (new Vector2 (0, force * Time.deltaTime), ForceMode2D.Impulse);
+				ball.AddForce (new Vector2 (0, force * Time.deltaTime), ForceMode2D.Impulse);
 				return;
 			}
 		}
