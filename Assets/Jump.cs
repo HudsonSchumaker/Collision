@@ -32,9 +32,9 @@ public class Jump : MonoBehaviour {
 		}
 	}
 
-//	void OnCollisionExit2D(Collision2D o){
-//		if(o.gameObject.CompareTag("Ground")){
-//			isJumpping = false;
-//		}
-//	}
+	void OnCollisionExit2D(Collision2D o){
+		if(o.gameObject.CompareTag("Ground")){
+			isJumpping = false;
+		}
+	}
 }
